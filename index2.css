@@ -1,0 +1,431 @@
+
+
+html,body{
+    height: 100%;
+    overflow-x: hidden;
+}
+.navbar-light .navbar-toggler { /* Menu Hamburg*/
+    border: none;
+}
+#back-description{
+  background-image: url(img-2/background-section-description.PNG) ; 
+  background-position: center center;
+  
+}
+#icon { /* Icon Menu Hamburg*/
+    width: 50px;
+    color: white;
+    padding: 10px;
+}
+#backg-conocer{
+  background-image: url(img-2/background-section.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+}
+#search{
+  background-image: url(img-2/magnifying-glass-solid.svg) ;
+  background-position:95%  13px;
+  background-repeat: no-repeat;
+  background-size: 3vh;
+  border: none;
+  padding: 10px 16px 10px;
+  width: 100%;
+}
+#card-item{
+  border: 1px solid rgba(128, 128, 128, 0.089); 
+  margin: auto;
+  margin-bottom: 10px;
+ 
+}
+#card-more-product{
+ border: 10px solid #473A2C;
+ margin: 5px 0px;
+ border-radius: 2vw;
+ 
+}
+.card-lustres{
+  margin: auto;
+}
+.h1-promo{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: lighter;
+}
+.link-header{
+  text-decoration: none;
+  width: 100%;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+}
+.w-header{
+  width: 110%;
+}
+
+.link-nav{
+  font-size: 16px;
+
+}
+.txt-descript{
+  font-size: 4vw;
+  text-shadow: 1px 1px 1px black;
+  
+}
+.h2-title{
+  font-size: 3vw;
+  margin-top: 8vw;
+}
+.img-config{
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 20vw;
+  margin-top: 2px;
+ 
+  
+}
+.img-sala-estar{
+  background-image: url(img-2/sala-estar.png);
+  
+}
+.img-varanda{
+  background-image: url(img-2/varanda.png);
+}
+.img-banheiro{
+  background-image: url(img-2/banheiro.png);
+}
+.img-jardim{
+  background-image: url(img-2/jardim.png);
+}
+.img-cozinha{
+  background-image: url(img-2/cozinha.png);
+}
+.img-quarto{
+  background-image: url(img-2/quarto.png);
+}
+
+.card-promo{
+  background-image: url(img-2/flyer-promo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center left;
+  height: 50vh;
+}
+.btn-promo{
+  margin-top: 280px;
+  margin-left: 280px;
+  background-color:#F39000 ;
+  padding: 4px 26px;
+  color: white;
+  text-decoration: none;
+  border: 1px solid white;
+}
+.link-promo{
+  color: white;
+  text-decoration: none;
+}
+.link-promo:hover{
+  color: #343A40;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+header .navbar-light .navbar-nav .nav-link {
+    color: #B9D0F0;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+}
+header .navbar-light .navbar-nav .nav-link:hover {
+    color: #00B2DB;
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+}
+.center{
+    text-align: center;
+
+}
+#linked{
+    font-size: 50px;
+    color: black;
+} 
+
+.bg1{
+    background-color: #473a2c;
+}
+
+.bdr1{
+  border: 1px solid red;
+}
+#width-carousel{
+  width: 78%; 
+}
+
+
+
+/* Breakpoints para Media Queries*/
+/*Dispositivos extra small (telefones em modo retrato, com menos de 576px)*/ 
+@media (max-width: 575.98px) { 
+    #img-home{
+        width: 200px;
+        margin: 0px;
+        display: block;
+    }
+  
+    
+    
+    
+    #section-product h4{
+      font-size: 2em;
+    }
+    #search{
+      background-image: url(img-2/magnifying-glass-solid.svg) ;
+      background-position:95%  13px;
+      background-repeat: no-repeat;
+      background-size: 3vh;
+      border: none;
+      padding: 10px 16px 10px;
+      width: 100%;
+      display: inline;
+      border: 1px solid #f3920025;
+      border-radius: 6px;
+    }
+    .card-lustres{
+      margin: auto;
+    }
+    .link-nav{
+      font-size: 16px;
+    }
+    .card-promo{
+      background-image: url(img-2/flyer-promo-md.png);
+      background-repeat: no-repeat;
+      background-size: 680px;
+      background-position: center left;
+      height: 200px;
+    }
+    .btn-promo{
+      width: 110px;
+      margin-top: 140px;
+      margin-left: 36px;
+      background-color:#F39000 ;
+      padding: 4px 26px;
+      color: white;
+      text-decoration: none;
+      border: 1px solid white;
+      font-size: 10px;
+    }
+    .link-promo{
+      color: white;
+      text-decoration: none;
+    }
+    .link-promo:hover{
+      color: #343A40;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .btn-promo{
+      width: 120px;
+    }
+ }
+
+/*Dispositivos small (telefones em modo paisagem, com 576px ou mais)*/ 
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+  #search{
+    background-image: url(img-2/magnifying-glass-solid.svg) ;
+    background-position:95%  13px;
+    background-repeat: no-repeat;
+    background-size: 3vh;
+    border: none;
+    padding: 10px 16px 10px;
+    width:60%;
+    display: inline;
+    border: 1px solid #f3920025;
+    border-radius: 6px;
+  }
+  .card-lustres{
+    margin: auto;
+  }
+  .link-nav{
+    font-size: 16px;
+  }
+  .card-promo{
+    background-image: url(img-2/flyer-promo-md.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center left;
+    height: 200px;
+   
+  }
+  .btn-promo{
+    width: 110px;
+    margin-top: 140px;
+    margin-left: 36px;
+    background-color:#F39000 ;
+    padding: 4px 26px;
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    font-size: 10px;
+  }
+  .link-promo{
+    color: white;
+    text-decoration: none;
+  }
+  .link-promo:hover{
+    color: #343A40;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .btn-promo{
+    width: 120px;
+  }
+ }
+
+/*Dispositivos médios (tablets com 768px ou mais)*/ 
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    #img-head{
+        width: 228px;
+    }
+  
+    #search{
+      background-image: url(img-2/magnifying-glass-solid.svg) ;
+      background-position:95%  13px;
+      background-repeat: no-repeat;
+      background-size: 3vh;
+      border: none;
+      padding: 10px 16px 10px;
+      width: 100%;
+      display: inline;
+      border: 1px solid #f3920025;
+      border-radius: 6px;
+    }
+    .card-lustres{
+      margin: auto;
+    }
+    .link-nav{
+      font-size: 16px;
+    }
+    .card-promo{
+      background-image: url(img-2/flyer-promo.png);
+      background-repeat: no-repeat;
+      background-size: 30cm;
+      background-position: center;
+      height: 250px;
+    }
+    .btn-promo{
+      width: 110px;
+      
+      margin-top: 180px;
+      margin-left: 10%;
+      background-color:#F39000 ;
+      padding: 4px 26px;
+      color: white;
+      text-decoration: none;
+      border: 1px solid white;
+    }
+    .btn-promo:hover{
+      width: 115px;
+      
+      margin-top: 180px;
+      margin-left: 10%;
+      background-color:#F39000 ;
+      padding: 4px 26px;
+      color: white;
+      text-decoration: none;
+      border: 1px solid white;
+    }
+    .link-promo{
+      color: white;
+      text-decoration: none;
+      font-size:10px;
+    }
+    .link-promo:hover{
+      color: #343A40;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+ }
+
+/*Dispositivos large (desktops com 992px ou mais)*/ 
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+ 
+    #search{
+      background-image: url(img-2/magnifying-glass-solid.svg) ;
+      background-position:95%  13px;
+      background-repeat: no-repeat;
+      background-size: 3vh;
+      border: none;
+      padding: 10px 16px 10px;
+      width: 100%;
+      display: inline;
+      border: 1px solid #f3920025;
+      border-radius: 6px;
+    }
+    .btn-promo{
+      width: 110px;
+      margin-top: 290px;
+      margin-left: 290px;
+      background-color:#F39000 ;
+      padding: 4px 26px;
+      color: white;
+      text-decoration: none;
+      border: 1px solid white;
+      font-size: 10px;
+    }
+    .link-nav{
+      font-size: 16px;
+    }
+    .w-nav{
+      display:flex;
+    }
+    .card-lustres{
+      margin: auto;
+    }
+ }
+
+/*Dispositivos extra large (desktops grandes com 1200px ou mais)*/ 
+@media (min-width: 1200px) {
+    #img-head{
+        width: 300px;
+    }
+    #search{
+      background-image: url(img-2/magnifying-glass-solid.svg) ;
+      background-position:95%  13px;
+      background-repeat: no-repeat;
+      background-size: 3vh;
+      border: none;
+      padding: 10px 16px 10px;
+      width: 100%;
+      display: inline;
+      border: 1px solid #f3920025;
+      border-radius: 6px;
+    }
+    .link-nav{
+      font-size: 1.15vw;
+    }
+    .w-nav{
+      height: 70px;
+    }
+    .btn-promo{
+      width: 150px;
+      margin-top: 300px;
+      margin-left: 290px;
+      background-color:#F39000 ;
+      padding: 4px 26px;
+      color: white;
+      text-decoration: none;
+      border: 1px solid white;
+      font-size: 10px;
+    }
+ }
+
+
+  
+
+  
